@@ -1,0 +1,286 @@
+* {
+    border: border-box;
+    margin: 0px;
+
+}
+.a{
+  font-style: normal;
+}
+.header_div{
+    height: 800px;
+    width: 100%;
+    background-image: url("vihaan\ main\ image\ \ 2.jpg");
+    background-size: cover;
+   
+   
+}
+a{
+  text-decoration: none;
+  color:inherit
+
+  
+}
+
+.hidden{
+  display: none;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+   
+    
+}
+.logo{
+    height: 80px;
+    width: 800px;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+.About_us{
+    height: 80px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+#countrySelect{
+  width: 60px;
+  height: 25px;
+  border: none;
+  text-align: center;
+  background-color:rgb(200,199,194);
+  font-size: large;
+}
+
+.location{
+  display: flex;
+    height: 80px;
+    width: 100px;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+.login_signup{
+    height: 80px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+}
+.notification{
+    height: 80px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 30px;
+}
+.profile{
+  display: flex;
+    height: 80px;
+    width: 150px;
+    padding-top: 30px;
+    
+}
+
+.search_bar{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+   
+}
+
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 30
+  }
+
+  
+  .tagline{
+    
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top: 180px;
+    font-size: 60px;
+    
+    
+        }
+      
+   
+ 
+  .mainbar{
+    /* margin-top: 200px; */
+    margin-left: 20px;
+    display: flex;
+    
+  }
+  input[type="text"] {
+    width: 584px; /* Set the width */
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+  }
+  .glass{
+    height: 56px;
+    width: 55px;
+    /* margin-top: 200px; */
+    background-color: rgb(29,179,108);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Align items horizontally to center */
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    
+  }
+
+
+.popular_services{
+    background-color: white;
+}
+
+
+  .main_text{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+  }
+  .four_services{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .box{
+    height: 335px;
+    width: 282px;
+    border-radius: 2%;
+    border: 0.01px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    
+  }
+  .text{
+    margin-top: 20px;
+    font-weight: bold;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+
+   
+  }
+  .box1{
+    background-image: url("resume.jpg");
+    background-position: -160px 13px; /* Adjust these values to position the desired part of the image */
+    background-size: 210%; 
+  }
+  .box2{
+    background-image: url("courses_offered.jpeg");
+    background-position: -100px 13px; /* Adjust these values to position the desired part of the image */
+    background-size: 150%; 
+  }
+  .box3{
+    background-image: url("events.jpeg");
+    background-position: -35px -20px; /* Adjust these values to position the desired part of the image */
+    background-size: 130%; 
+  }
+  .box4{
+    background-image: url("jobs.jpg");
+    background-position: -50px -10px; /* Adjust these values to position the desired part of the image */
+    background-size: 160%; 
+  }
+
+
+
+
+
+
+
+
+  .text{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  .trusted_companies{
+    height: 324px;
+    width: 100%;
+    
+  }
+  .companies_text{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+  }
+
+
+
+
+
+
+
+
+
+  .image-container {
+    padding-top:50px;
+     overflow: hidden; 
+    position: relative;
+    width: 100%; /* Use full width of the viewport */
+    height: 100px; /* Image height */
+  }
+
+  /* Individual image */
+  .moving-image {
+    padding: 20px;
+    float: right; /* Make images float next to each other */
+    width: 120px; /* Image width */
+    height: 60px; /* Image height */
+    animation: moveImages 2.5s linear infinite; /* Adjust animation duration as needed */
+  }
+
+  /* Keyframes for the moving animation */
+  @keyframes moveImages {
+    0% {
+      transform: translateX(100%); /* Initial position, move off-screen */
+    }
+    100% {
+      transform: translateX(-100%); /* Final position, move off-screen */
+    }
+  }
+
+
+
+  .custom-div {
+    width: 100%;
+    height: 247px;
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .number {
+    color: navy;
+    font-size: 24px; /* Adjust this as needed */
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+  }
+  

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="courses-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        /* Footer styles */
+        footer {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* Text color */
+            padding: 20px; /* Padding for content inside footer */
+            text-align: center; /* Center-align text */
+            position: relative; /* Fixed position at the bottom */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Footer link styles */
+        footer a {
+            color: #fff; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+    </style>
+</head>
+<body>
+
+    <% layout('./layout/boilerplate') -%>
+
+    <div class="search-bar">        
+        <input type="search" id="search" name="search" placeholder="Search courses" >
+        <button id = "search-button"></button>
+    </div>
+
+    <div class="course-catalog">
+        <h2>JavaScript</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/javascript/course-1.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Javascript Course: From Beginning to Expert </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-2.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete 2024 Web Development Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,499</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-3.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">JavaScript - The Complete Guide 2024 (Beginner + Advanced) </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 1,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-4.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Javascript Course: From Beginning to Expert </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-5.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Modern JavaScript From The Beginning 2.0 (2024)</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-6.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Javascript Course: From Beginning to Expert </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/javascript/course-7.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Javascript Course: From Beginning to Expert </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="course-catalog">
+        <h2>Python</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/Python/course-1.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Python Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 1,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/course-2.webp" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Python for Data Science and Machine Learning </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,499</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/course-3.gif" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Learn Python Programming Masterclass </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 4,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/coursse-4.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Python Mega Course </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/course-5.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Programming for Everybody </div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 1,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/course-6.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Capstone- Python </div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Python/course-7.avif" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Python Developer </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 999</div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="course-catalog">
+        <h2>Artificial Intelligence</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-1.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Artificial Intelligene A-Z 2024 </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-2.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete A.I and ML Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-3.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Artificial Intelligence and ChatGPT Course </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 799</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-4.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Artificial Intelligence for Businesses </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,499</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-5.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Modern Artificial Intelligence Masterclass </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-6.webp" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Machine Learning for Absolute Beginners </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,299</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Artificial Intelligence/course-7.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Artificial Intelligence with Machine Learning </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="course-catalog">
+        <h2>App Development</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-1.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Android 14 Developer Course</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-2.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Android 14 and Kotlin Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-3.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Android 14 Development Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-5.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete Flutter Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-6.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete iOS Developer Course </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,499</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-7.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Mobile App Development </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/AppDevelopment/course-8.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">The Complete iOS Apps Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="course-catalog">
+        <h2>Game Development</h2>
+        <div class="course-list">
+        <div class="course">
+            <img src="course-images/Game Development/course-1.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Game Development with C# </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,099</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-2.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Game Design Masterclass </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,699</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-3.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Unity Game Development</div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 2,899</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-4.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">The Ultimate Guide to Game Development with Unity </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,099</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-5.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Unreal Engine- Gameplay Ability System </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 799</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-6.jpeg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Game Design Document </div>
+                <div class="provider">Coursera</div>
+                <div class="Rate"> ₹ 899</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-7.png" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Game Development Using Scratch </div>
+                <div class="provider">Coursera</div>
+                <div class="Rate"> ₹ 1,699</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/Game Development/course-8.png" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">3D Interaction Design in Virtual Reality </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,999</div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="course-catalog">
+        <h2>Network Security</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/Network Security/course-1.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Microsoft CyberSecurity Analyst </div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 2,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-2.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Managing Network Security</div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 1,799</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-3.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Introduction to Network Security</div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 2,899</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-4.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Cyber Security: From Beginner to Expert </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-5.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Complete Ethical Hacking Bootcamp </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-6.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Introduction to Computer Networks </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-7.webp" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Network Security Foundations </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 799</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/Network Security/course-8.webp" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Complete Cyber Security Course : Hackers Exposed </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-catalog">
+        <h2>BlockChain</h2>
+        <div class="course-list">
+        <div class="course">
+            <img src="course-images/BlockChain/course-1.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Blockchain and Bitcoin Fundamentals</div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,699</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-2.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Blockchain A-Z : Build a BlockChain</div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,099</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-3.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">14 day BlockChain Developer </div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 2,699</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-4.jpg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">BlockChain: Complete Course for Beginners</div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 2,699</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-5.png" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">BlockChain Foundation</div>
+                <div class="provider">Udemy</div>
+                <div class="Rate"> ₹ 3,999</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-6.jpeg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">Introduction to BlockChain Technologies</div>
+                <div class="provider">Coursera</div>
+                <div class="Rate"> ₹ 2,899</div>
+            </div>
+        </div>
+        <div class="course">
+            <img src="course-images/BlockChain/course-7.jpeg" alt="" height="100px">
+            <div class="course-info">
+                <div class="title">BlockChain Security</div>
+                <div class="provider">Coursera</div>
+                <div class="Rate"> ₹ 2,999</div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <div class="course-catalog">
+        <h2>Database Design</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="course-images/DB-Design/course-1.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Fundamentals of Database Engineering</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-2.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Relational Database Design</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,499</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-3.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Complete SQL and Database Bootcamp</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,699</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-4.jpg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">SQL and Database Design</div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 3,099</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-5.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Database Design and Diagramming in Data</div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 3,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-6.png" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Relational Database Design</div>
+                    <div class="provider">Coursera</div>
+                    <div class="Rate"> ₹ 1,999</div>
+                </div>
+            </div>
+            <div class="course">
+                <img src="course-images/DB-Design/course-7.jpeg" alt="" height="100px">
+                <div class="course-info">
+                    <div class="title">Database Design and BasicSQL  </div>
+                    <div class="provider">Udemy</div>
+                    <div class="Rate"> ₹ 2,999</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>© 2024 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+
+
+
+
+    <script src="course.js" charset="UTF-8"></script> 
+</body>
+</html>

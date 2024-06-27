@@ -1,0 +1,168 @@
+body{
+    background-image: linear-gradient(to right, rgb(234,23,127), rgb(188,48,187),rgb(188,48,187), rgb(136,62,247));
+}
+h1{
+    text-align: center;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+.categories{
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.category{
+    
+    width: 170px;
+    height: 67px;
+    background-color:  rgba(0, 0, 0, 0.455);
+    color: white;
+    box-shadow: 0 8px 16px  rgba(0, 0, 0, 0.2); 
+    padding: auto;
+    border-radius: 15px;
+    
+}
+
+.category button {
+    display: block;
+    text-align: center;
+    font-size: 1rem;   
+    background-color: transparent;
+    border: none;    
+    cursor: pointer;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+    
+    
+    padding-left: 30px;
+    padding-top: 25px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+#all{
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.category-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+
+    margin-left: 30px;
+    margin-top: 50px;
+    height: auto;
+    
+
+}
+
+#shinrai{
+    transform: scale(1.5);
+    height: 30px;
+    margin-top: 20px;
+}
+
+#deck-mount{
+    height: 20px;
+    margin-top: 30px;
+}
+#ardhyana{
+    height: 20px;
+    margin-top: 20px;
+}
+#fastek{
+    height: 30px;
+    margin-top: 20px;
+}
+#century-health{
+    height: 30px;
+    margin-top: 20px;
+}
+#blob-city{
+    height: 30px;
+    margin-top: 20px;
+}
+#blackcoffer{
+    height: 30px;
+    margin-top: 20px;
+}
+#buddhanet{
+    height: 30px;
+    margin-top: 20px;
+}
+
+
+
+.job{    
+    padding: 25px;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.498); /* Semi-transparent white */
+    backdrop-filter: blur(30px); /* Blur the background */
+    width: 265px;
+    height: 370px;
+    border-radius: 5%;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+    
+    
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company img{
+    background-color: whitesmoke;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.company h4{
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.location {
+    display: flex;    
+    
+}
+
+.location span{
+    margin-top: 12px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.job button{
+    margin-left: 180px;
+    margin-top: 20px;
+    color: rgb(12, 62, 154);
+    font-weight: 500;
+    border-color: rgba(12, 61, 154, 0.58);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.category-div{
+    display: none;
+}

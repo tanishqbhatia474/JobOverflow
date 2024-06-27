@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Rater</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+    body {
+        background-color: rgb(8,20,48);
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    #header {
+        text-align: center;
+        padding: 20px;
+    }
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Center items vertically */
+        padding: 20px;
+    }
+    #resume-upload {
+        background-color: rgb(8,20,48);
+        border: 2px dotted white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 25%;
+        height: 300px; /* Increase the height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #resume-upload h2 {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    footer {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* Text color */
+            padding: 20px; /* Padding for content inside footer */
+            text-align: center; /* Center-align text */
+            position: relative; /* Fixed position at the bottom */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Footer link styles */
+        footer a {
+            color: #fff; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+    #resume-upload button {
+        background-color: white;
+        color: rgb(8,20,48);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center; /* Center the button vertically */
+    }
+    #resume-upload button:hover {
+        background-color: #f0f0f0;
+    }
+    #resume-input {
+        display: none;
+    }
+    #right-section {
+        width: 40%;
+        margin-left: 100px;
+        scale: 100%;
+    }
+    #right-section img {
+        width: 100%;
+        height: auto;
+    }
+    
+.material-symbols-outlined {
+    
+
+    margin-left: 205px;
+    scale: 250%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 1400,
+  'GRAD' 0,
+  'opsz' 240
+  
+}
+
+
+</style>
+</head>
+<body>
+    <% layout('./layout/boilerplate') -%>
+
+<div id="header">
+    <h1>Personalised Resume Checker: Get your resume checked by Tech professionals.</h1>
+    <p>Get your resume reviewed . Scan your resume for issues and see how it compares against other resumes .</p>
+</div>
+
+<div id="container">
+    <div id="resume-upload">
+        <span class="material-symbols-outlined">
+            upload_file
+            </span>
+        <form action="/single" method="POST"
+        enctype="multipart/form-data"><input type="file" name="image" />
+        <button type ="submit" id="upload-button">Upload Your Resume</button>
+        </form>
+        
+        
+    </div>
+    <div id="right-section">
+        <img src="resume_image.jpeg" alt="">
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<script>
+    document.getElementById("upload-button").addEventListener("click", function() {
+        document.getElementById("resume-input").click();
+    });
+</script>
+
+</body>
+</html>

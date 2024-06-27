@@ -1,0 +1,101 @@
+body{
+    background-color: whitesmoke;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#search{
+  width: 50%;
+  height: 60px;
+  padding: 10px;
+  
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  background-color: white;
+  
+    
+}
+
+#search::placeholder{
+    text-indent: 80px;
+    font-size: 1rem;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+       
+}
+
+#search-button {
+    width: 70px;
+    height: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    background-image: url("icons/search_FILL0_wght400_GRAD0_opsz24.svg");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+
+    color: #fff;
+    
+    cursor: pointer;
+    
+  }
+
+
+
+.course-catalog{
+    margin: 25px;
+    
+}
+.course-catalog h2{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+
+.course-list{
+    display: flex;
+
+}
+
+.course{
+    height: auto;
+    width: auto;
+    box-shadow: 0 8px 16px  rgba(0, 0, 0, 0.2);
+    border-radius: 15px;    
+    margin: 5px 10px 10px 10px;
+
+}
+.course img{
+    width: fit-content;
+    height: 135px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+
+}
+
+.title{
+    margin: 5px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 1.1rem;
+    cursor: pointer;   
+    
+}
+.provider{
+    margin: 7px 15px;
+    font-family: 'Open Sans', sans-serif;   
+    
+}
+.Rate{
+    margin:  4px 15px;
+}

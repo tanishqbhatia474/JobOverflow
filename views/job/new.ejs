@@ -1,0 +1,40 @@
+<% layout('layout/boilerplate') -%>
+<div class="border p-3 mx-auto w-50">
+    <h1>Add Product</h1>
+    <form action="/jobs" method="post">
+        <div class="mb-3">
+            <label for="jobrole" class="form-label">JOB ROLE</label>
+            <input type="text" class="form-control" name="jobrole" id="jobrole">
+        </div>    
+        <div class="mb-3">
+            <label for="company" class="form-label">company Name</label>
+            <input type="text" class="form-control" name="company" id="company">
+        </div>   
+        <div class="mb-3">
+            <label for="img" class="form-label">Image Url</label>
+            <input type="text" class="form-control" name="img" id="img">
+        </div>   
+        <div class="mb-3">
+            <label for="startdate" class="form-label">Start Date</label>
+            <input type="text" class="form-control" name="startdate" id="startdate">
+        </div> 
+        <div class="mb-3">
+            <label for="ctc" class="form-label">CTC</label>
+            <input type="text" class="form-control" name="ctc" id="ctc">
+        </div>  
+        <div class="mb-3">
+            <label for="experience" class="form-label">Experience</label>
+            <input type="text" class="form-control" name="experience" id="experience">
+        </div>
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" class="form-control" name="location" id="location">
+        </div>  
+        <div class="mb-3">
+            <label for="joblink" class="form-label">Job Link</label>
+            <input type="text" class="form-control" name="joblink" id="joblink">
+        </div> 
+        
+        <button type="submit" class="btn btn-success btn-sm">Submit</button>
+    </form>
+</div>
